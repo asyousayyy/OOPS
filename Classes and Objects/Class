@@ -1,0 +1,17 @@
+public class Car{
+    String model;
+    int year;
+    String company;
+
+    public Car(String model, int year, String company){
+        this.model = model;
+        this.year = year;
+        this.company = company;
+    }
+
+    public void startEngine(){
+        System.out.println(model + ", " + year + ", " + company);
+    }
+
+    //more methods
+}
