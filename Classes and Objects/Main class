@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+
+        // Creating objects
+        Car car1 = new Car("Toyota", 2021 , "Corolla");
+        Car car2 = new Car("Honda", 2022, "Civic");
+
+        // Using objects
+        car1.startEngine();  // Output: The 2021 Toyota Corolla's engine has started.ĺ
+        car2.startEngine();  // Output: The 2022 Honda Civic's engine has started.
+        
+    }
+}
